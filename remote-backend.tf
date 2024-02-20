@@ -9,7 +9,7 @@
 # }
 terraform {
   backend "gcs" {
-    bucket = "test-abhin"
+    bucket = "<Bucket-nmae>"
     prefix = "terraform/state"
   }
 }
