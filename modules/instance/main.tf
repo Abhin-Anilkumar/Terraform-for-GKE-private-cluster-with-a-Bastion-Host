@@ -18,7 +18,7 @@ resource "google_compute_instance" "private_vm" {
   }
 
   service_account {
-    email  = var.email #"service@kubernetes-412203.iam.gserviceaccount.com" #var.account[1]
+    email  = var.email 
     scopes = ["cloud-platform"]
   }
 }
