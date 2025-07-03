@@ -37,6 +37,7 @@ module "vpc" {
   project_id   = var.project_id
   router_name  = var.router_name
   subnet_names = var.subnet_names
+  region = var.region
 }
 
 

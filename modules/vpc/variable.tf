@@ -20,3 +20,7 @@ variable "router_name" {
 variable "nat_name" {
   type = string
 }
+
+variable "region" {
+  type = string
+}
