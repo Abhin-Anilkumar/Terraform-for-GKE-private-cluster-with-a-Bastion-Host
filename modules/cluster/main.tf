@@ -2,6 +2,7 @@ resource "google_container_cluster" "privatecluster" {
   name       = var.cluster_name
   network    = var.vpc_name
   subnetwork = var.subnet_names[1]
+  deletion_protection = false
 
   remove_default_node_pool = true
   initial_node_count       = 1
