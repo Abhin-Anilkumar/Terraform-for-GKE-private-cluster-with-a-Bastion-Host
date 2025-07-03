@@ -1,8 +1,8 @@
-project_id             = "kubernetes-412203"
+project_id             = "abhin-461109"
 vpc_name               = "task-vpc"
 subnet_names           = ["management-subnet", "restricted-subnet"]
 cidr_ranges            = ["10.0.0.0/24", "10.0.1.0/24"]
-# bucket_name            = "test12345-1"
+#bucket_name            = "abhin"
 region                 = "us-central1"
 # bucket_class           = "STANDARD"
 router_name            = "task-router"
