@@ -18,7 +18,7 @@ resource "google_compute_instance" "private_vm" {
   }
 
   service_account {
-    email  = var.email 
+    email  = var.email
     scopes = ["cloud-platform"]
   }
 }
