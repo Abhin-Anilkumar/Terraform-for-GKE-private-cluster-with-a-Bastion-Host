@@ -9,7 +9,7 @@
 # }
 terraform {
   backend "gcs" {
-    bucket = "test-cybersapient"
+    bucket = "cyber-sapient"
     prefix = "terraform/state"
   }
 }
