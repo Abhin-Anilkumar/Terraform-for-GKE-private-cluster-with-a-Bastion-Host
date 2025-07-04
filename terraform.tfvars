@@ -1,4 +1,4 @@
-project_id             = "abhin-461109"
+project_id             = "supple-serenity-464811-d5"
 vpc_name               = "task-vpc"
 subnet_names           = ["management-subnet", "restricted-subnet"]
 cidr_ranges            = ["10.0.0.0/24", "10.0.1.0/24"]
