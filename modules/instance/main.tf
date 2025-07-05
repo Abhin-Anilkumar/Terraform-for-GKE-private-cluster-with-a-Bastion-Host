@@ -15,6 +15,8 @@ resource "google_compute_instance" "private_vm" {
   network_interface {
     network    = var.vpc_name
     subnetwork = var.subnet_names[0]
+    access_config {
+    }
   }
 
   service_account {
