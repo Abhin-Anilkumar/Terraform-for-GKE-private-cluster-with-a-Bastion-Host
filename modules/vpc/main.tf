@@ -16,7 +16,7 @@ resource "google_compute_firewall" "allow_ssh" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22", "80", "443", "3000"]
+    ports    = ["22", "80", "443", "3000", "5000"]
   }
 
   source_tags   = ["private-vm"]
